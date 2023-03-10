@@ -7,3 +7,15 @@ When the master of the SPI bus wants to initiate a transfer, it must first pull 
 There are 4 different SPI bus standards that all have to do with the SCK signal. The 4 modes are broken down into two parameters, CPOL and CPHA. CPOL stands for Clock POLarity and designates the default value (high/low) of the SCK signal when the bus is idle. CPHA stands for Clock PHAse and determines which edge of the clock data is sampled (rising/falling). The data sheet for any device will specify these parameters so you can adjust accordingly. The most common settings are CPOL=0 (idle low) and CPHA=0 (sample rising edge).
 
 <centre><img width="550" alt="image" src="https://user-images.githubusercontent.com/99958597/224381556-528accd3-f562-4e56-b17a-844745c3962c.png"></centre>
+
+- Reference https://alchitry.com/serial-peripheral-interface-spi-verilog
+
+# Tool Used: Qflow
+- Qflow (which includes the following tools)
+- Yosys > For RTL Synthesis 
+- Graywolf > For Placement
+- Qrouter > For Detailed Routing
+- Magic > VLSI Layout Tool
+- Netgen > For LVS 
+- OpenSTA > For Static Timing Analysis
+
