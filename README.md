@@ -12,10 +12,10 @@ There are 4 different SPI bus standards that all have to do with the SCK signal.
 
 # Tool Used: Qflow
 - Qflow (which includes the following tools)
-- Yosys > For RTL Synthesis 
-- Graywolf > For Placement
-- Qrouter > For Detailed Routing
-- Magic > VLSI Layout Tool
-- Netgen > For LVS 
-- OpenSTA > For Static Timing Analysis
+- Yosys = For RTL Synthesis 
+- Graywolf = For Placement
+- Qrouter = For Detailed Routing
+- Magic = VLSI Layout Tool
+- Netgen = For LVS 
+- OpenSTA = For Static Timing Analysis
 
